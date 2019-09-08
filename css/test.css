@@ -1,0 +1,97 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color:;
+}
+
+/* Header Start*/
+header{
+  background-color:#1DCEA0;
+  margin:0;
+  padding:5px; 
+ 
+
+}
+
+.wrapper{
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo{
+  width: 12%;
+  float: left;
+  
+
+}
+
+.logo img{
+  width: 90%;
+
+}
+
+.menu{
+  width: 70%;
+  float: right;
+  margin-top: 10px;
+}
+
+.menu ul{
+  float: right;
+
+}
+
+.menu ul li{
+  list-style: none;
+  float: left;
+
+}
+
+.menu ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  color:white;
+  padding: 0 15px;
+  display: block;
+  text-transform:uppercase;
+
+}
+.menu ul li:last-child a{
+  padding-right:0;
+
+}
+.menu ul li a:hover{
+ 
+  color:#B03A2E;
+  transition: 0.5s;
+  
+}
+
+/* header end */
+
+  /* banner start */
+
+.banner{
+  background-image: url(../image/four.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.banner-content{
+  margin-top: 380px;
+  margin-bottom:50px;
+  width: 30%
+  
+}
+.banner-content p:first-child {
+  color: white;
+}
+.banner-content h1 {}
+.banner-content p:last-child {
+  color: white;
+}
+
+/* banner end */
